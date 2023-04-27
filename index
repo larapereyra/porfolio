@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta content="IE=edge" http-equiv="X-UA-Compatible">
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+            <title>Lara Pereyra - Porfolio</title>
+                <link href="css/style.css" rel="stylesheet" type="text/css">
+                <link rel="shortcut icon" type="image/x-icon">
+                <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.css" rel="stylesheet">
+                <script src="js/script.js" type="text/javascript"></script>
+    </head>
+    <body>
+    <header>
+    <input type="checkbox" id="burger">
+    <label for="burger">
+      <i class="fa fa-bars" id="bars"></i>
+      <i class="fa-solid fa-xmark" id="xmark"></i>
+    </label>
+    <nav>
+      <ul>
+        <a href="index.html#home">
+          <li>Inicio</li>
+        </a>
+        <a href="index.html#about">
+          <li>Sobre mi</li>
+        </a>
+        <a href="index.html#projecten">
+          <li>Proyectos</li>
+        </a>
+        <a href="index.html#cv">
+          <li>CV</li>
+        </a>
+        <a href="index.html#contact">
+          <li>Contacto</li>
+        </a>
+      </ul>
+    </nav>
+  </header>
+        <main>
+            <section id="home">
+                <div id="splash">
+                <h1 class="headmotion">Les doy la bienvenida a mi porfolio</h1>
+                    <h3>
+                        diseño web │ diseño gráfico | programación web
+                    </h3>
+                </div>
+                <div class="calltoaction">
+                    <div class="social-icons">
+                      <a href="https://www.linkedin.com/in/lara-pereyra-422117145/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                      <a href="https://www.instagram.com/laraveronika_/" target="_blank"><i class="fa-brands fa-instagram" target="_blank"></i></a>
+                    </div>
+                </div>
+            </section>
+            <section id="about">
+                <h2>Sobre mi</h2>
+                <h3>me presento </h3>
+                <div class="grid two-uneven-columns intro">
+                    <div class="grid-column profile-pic">
+                        <img alt="foto" src="img/profile.jpg">
+                    </div>
+                    <div class="grid-column">
+                        <p>
+                            Me considero una persona proactiva y autodidacta, tengo gran facilidad en aprender cosas nuevas. Me siento cómoda trabajando individualmente y también en equipo; soy persistente, creativa y paciente a la hora de abordar un proyecto, también me gustan los nuevos desafíos, suelo ser conciliadora en el entorno de trabajo para así crear un ambiente motivador y productivo.
+                        </p>
+                    </div>
+                </div>
+                <h3>datos personales</h3>
+                <div class="grid two-uneven-columns profile">
+                    <div class="grid-column">
+                        <p>
+                          <strong>Nombre</strong><br>
+                          <strong>Fecha de nacimiento</strong>
+                            <br>
+                          <strong>Trabajo</strong>
+                            <br>
+                          <strong>Email</strong>
+                            <br>
+                        </p>
+                    </div>
+                    <div class="grid-column">
+                        <p>Lara Pereyra<br>
+                          12 de diciembre, 1995<br>
+                          Emprendedora textil<br>
+                          larapereyra10@gmail.com<br>
+                        </p>
+                    </div>
+                </div>
+                <div class="flex">
+                    <a href="documentos/CV Lara.pdf">
+                        <button>
+                            Descargar/CV
+                        </button>
+                    </a>
+                </div>
+            </section>
+            <section id="projecten">
+                <h2>
+                    Proyectos
+                </h2>
+                <h3>
+                    PROYECTO FINAL DE EGRESO DE CEIBAL
+                </h3>
+                <div class="flex">
+                    <a href="documentos/PROYECTO CEIBAL.rar">
+                        <button>
+                            Descargar aquí
+                        </button>
+                    </a>
+                </div>
+                <br>
+                <h3>
+                    DISEÑO GRÁFICO: LOGOS Y FLYERS
+                </h3>
+                <div class="flex">
+                    <a href="design.html">
+                            <button class="button" style="vertical-align:middle">VER TRABAJOS</button>
+                        </a>
+                </div>
+                <br>
+                <br>
+            </section>
+            <section id="cv">
+                <h2>CV</h2>
+                <h3>Estudios</h3>
+                <div class="flex-box">
+                    <div class="grid two-uneven-columns">
+                        <div class="grid-column">
+                            <img class="img-study" src="img/iac.jpg"><br><br>
+                                <p> En IAC Capacitación estudié Diseño Web, en el año 2016. Me especialicé en maquetado con HTML, CSS y algo de JS. También adquirí conocimientos de Wordpress, usando plantillas y modificandolas con HTML y CSS también.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex-box">
+                    <div class="grid two-uneven-columns">
+                        <div class="grid-column">
+                            <img class="img-study" src="img/ceibal_jap.png"><br><br>
+                               <p>En 2017 formé parte de "Jóvenes a Programar" en CEIBAL, especializandome en Programación Web. Clases 100% virtuales, alternando entre teóricos, prácticos y talleres, y aprendiendo también mediante plataformas digitales. Además contabamos con capacitación en las tres áreas más importantes para el sector de tecnología: en lo técnico, en competencias transversales y en inglés.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid two-even-columns">
+                    <div class="grid-column">
+                        <h3> Habilidades adquiridas</h3>
+                        <ul>
+                            <li class="skill-percentage">
+                                HTML / HTML5
+                            </li>
+                            <li class="skill-percentage">
+                                CSS / CSS3
+                            </li>
+                            <li class="skill-percentage">
+                                Javascript
+                            </li>
+                            <li class="skill-percentage">
+                                Wordpress
+                            </li>
+                            <li class="skill-percentage">
+                                Photoshop
+                            </li>
+                            <li class="skill-percentage">
+                                Canva
+                            </li>
+                        </ul>
+                    </div>
+                   <div class="grid-column">
+                      <h3>Hobbies</h3>
+                      <p class="hobbie">Como hobbie me gusta sacar fotografías y editarlas, esta es mi galeria</p>
+                        <a href="galeria.html">
+                            <button class="button" style="vertical-align:middle">CLICK PARA VER GALERÍA</button>
+                        </a>
+                    </div>
+                </div>
+            </section>
+        </main>
+<section id="contact">
+    <h2>Contacto</h2>
+    <h4>¡gracias por su visita! no dude en consultar</h4>
+
+        <form id="formulario" name="MiFormulario" method="post" onsubmit="validate(this); return false;" novalidate="">
+                <ul class="flex-outer">
+                    <li>
+                        <label for="nombre"></label>
+                        <input type="text" name="nombre" placeholder="Ingresa Nombre" id="nombre" class="name" onblur="validarName()" required="" />
+                    </li>
+                    <li>
+                        <label for="email"></label>
+                        <input type="email" id="correo" class="email" name="email" onblur="validarCorreo()" placeholder="Ingresa Correo" class="rect" required="" />
+                    </li>
+                    <li>
+                        <label for="mensaje"></label>
+                        <textarea rows="6" name="mensaje" placeholder="Consulta" class="text"></textarea>
+                    </li>
+                    <li class="center">
+                        <button class="submit" type="submit">Enviar</button>
+                    </li>
+                </ul>
+            </form>
+
+
+    <div id="contactinfo">
+        <div>
+            <i class="fa-solid fa-location-dot"></i>
+            <h4>Me encuentro en</h4>
+            <p>Uruguay , Canelones
+            </p>
+        </div>
+        <div>
+            <i class="fa-solid fa-envelope"></i>
+            <h4>Envíame un email</h4>
+            <p>larapereyra10@gmail.com</p>
+        </div>
+        <div>
+            <i class="fa-solid fa-phone"></i>
+            <h4>Contáctame</h4>
+            <p>+598 94 423 650</p>
+        </div>
+    </div>
+</section>
+        <footer>
+         <div class="social-icons">
+            <a href="https://www.linkedin.com/in/lara-pereyra-422117145/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://www.instagram.com/laraveronika_/" target="_blank"><i class="fa-brands fa-instagram" target="_blank"></i></a>
+          </div>
+        </footer>
+      </body>
+</html>
